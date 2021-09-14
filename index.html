@@ -1,0 +1,152 @@
+<html>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto+Mono:wght@200&family=Urbanist:wght@200&display=swap');
+        html {
+            background: black;
+            color: white;
+        }
+        * {
+            margin: 0%;
+        }
+        #navbar {
+            padding: 20px;
+            font-family: 'Urbanist', sans-serif;
+        }
+        #navbar h1 {
+            font-size: 30px;
+            font-weight: 900;
+            text-align: center;
+            padding-top: 30px;
+        }
+        #navbar b {
+            color: #B13434;
+        }
+
+        #txt h1 {
+            font-family: 'Oswald', sans-serif;
+            font-size: 70px;
+            text-align: center;
+            color: #B13434;
+        }
+        #txt p {
+            text-align: center;
+            color: white;
+            font-size: 20px;
+            font-family: 'Roboto Mono', monospace;
+        }
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 5px;
+        }
+        #cards {
+            display: flex;
+            font-family: 'Roboto Mono', monospace;
+            font-size: 20px;
+            margin-left: 50px;
+            margin-right: 50px;
+       
+            text-align: center;
+            justify-content: space-evenly;
+            
+
+        }
+        #down {
+            margin-top: 50px;
+            border-left: 10px solid #B13434 ;
+         
+        }
+        #up {
+            transition: 1s;
+            background: #0C0A0A;
+            border-radius: 5px;
+            border-left: 10px solid #B13434 ;
+           
+        }
+        #down p {
+            padding-top: 20px;
+            padding-bottom: 10px;
+         
+        }
+        #up p {
+            padding-top: 20px;
+            
+        }
+        #up:hover {
+            transform: scale(1.05);
+        }
+        #down {
+            transition: 1s;
+            background: #0C0A0A;
+            border-radius: 5px;
+        }
+        #down:hover {
+            transform: scale(1.02);
+        }
+        
+        @media screen and (max-device-width: 720px) {
+            #navbar {
+                margin-top:300px;
+            }
+            #navbar h1 {
+                font-size: 50px;
+            }
+            #txt h1 {
+                font-size: 175px;
+            }
+            #txt p {
+                font-size: 60px;
+            } 
+            
+            #cards {
+                margin-top: 1200px;
+                flex-direction: column;
+                margin-left: 200px;
+                margin-right: 200px;
+                
+            }
+            img {
+                width: 300;
+                height: 300;
+            }
+            #cards p {
+                font-size: 60px;
+            }
+            
+        }
+    </style>
+    <head>
+        <title>
+            Gojo
+        </title>
+    </head>
+    <div id="navbar">
+        <h1>
+            GS <b>x</b> Drip
+        </h1>
+    </div>
+    <div id="meh">
+        <div id="txt">
+            <h1>
+                Gojou Satoru
+            </h1>
+            <p>
+                A potential drip lord
+            </p>
+        </div>
+        <div id="cards">
+            <div id="up">
+                <img src="https://i.pinimg.com/originals/4e/2b/88/4e2b88baa1d41926a23b05180456fb56.jpg">
+                <P>Simping</P>
+            </div>
+            <div id="down">
+                <img src="https://i.pinimg.com/originals/8e/de/53/8ede538fcf75a0a1bd812810edb50cb7.jpg">
+                <p>Simps</p>
+            </div>
+            <div id="up">
+                <img src="https://64.media.tumblr.com/1986b909b6b864c8d662a73904726aac/60374144c7f0d259-b9/s1280x1920/2d3cd9eb06735a5c7915bf107a713a6486b3e1e7.jpg">
+                <p>Simping Noises</p>
+            </div>
+        </div>
+    </div>
+</html>
